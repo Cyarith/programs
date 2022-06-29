@@ -1,0 +1,130 @@
+Score = 0
+TextWindow.WriteLine("Welcome To Dawud Kazi's Quiz, Please Read the warning below.")
+TextWindow.WriteLine("PLEASE REMEMBER TO WRITE YOUR ANSWERS IN CAPS OTHERWISE YOUR ANSWERS WILL NOT COUNT!")
+textwindow.WriteLine("1.What year was fortnite battle royale released?")
+TextWindow.WriteLine(" A - 2006")
+TextWindow.WriteLine(" B - 2014")
+TextWindow.WriteLine(" C - 2017")
+Answer1 = TextWindow.Read()
+If(Answer1="C")Then
+   Score=Score+1
+  TextWindow.writeline("CORRECT!fortnite battle royale was released by epic games in 2017, your score is "+Score)
+Else 
+  Score=Score
+  TextWindow.WriteLine("INCORRECT... Fortnite battle royale was released by epic games in 2017, your score is "+Score)
+Endif
+Textwindow.writeline("2.How old is minecraft?")
+TextWindow.WriteLine(" A - 10")
+TextWindow.WriteLine(" B - 15")
+TextWindow.WriteLine(" C - 13")
+Answer2 = TextWindow.Read()
+If(Answer2="A")then
+   Score=Score+1
+  TextWindow.WriteLine("CORRECT!minecraft was released in 2009, it has recently had it's 10th birthday.Your score is "+Score)
+else
+  Score=Score
+  TextWindow.WriteLine("INCORRECT... Minecraft was released in 2009 in an early stage.Your Score is "+Score)
+endif
+TextWindow.WriteLine("3.What is the name of the latest mike wazaouski meme?")
+TextWindow.WriteLine(" A - Mike wazaouski face swap")
+TextWindow.WriteLine(" B - Mike wazaouski school")
+TextWindow.WriteLine(" C - Mike wazouski ghost")
+Answer3 = TextWindow.Read()
+If(Answer3="A")Then
+  Score=Score+1
+  TextWindow.WriteLine("CORRECT!It was a face swap of Mike wazaouski and sully from monsters inc.Your Score is "+Score)
+Else
+  Score=Score
+  TextWindow.WriteLine("INCORRECT... It was a face swap of Mike wazaouski and sully from monsters inc.Your Score is "+Score)
+endif
+Textwindow.writeline("4.How many subscribers is pewdiepie at, as of 2/10/2019")
+Textwindow.writeline(" A - 101 Million")
+TextWindow.WriteLine(" B - 96 Million")
+TextWindow.WriteLine(" C - 100 Million")
+Answer4 = TextWindow.Read()
+If(Answer4="A")Then
+  Score = Score+1
+  TextWindow.WriteLine("CORRECT!pewdiepie has surpassed 100 million subscribers but he has gone past by 1 million already.Your score is " +Score)
+Else
+  Score=Score
+  TextWindow.WriteLine("INCORRECT... Pewdiepie has Gotten OVER 100 million subscribers!Your Score is "+Score)
+endif
+TextWindow.WriteLine("5.How many hours of sleep minimum are needed for an adult?")
+TextWindow.WriteLine(" A - 12")
+TextWindow.WriteLine(" B - 10")
+TextWindow.WriteLine(" C - 8")
+Answer5 = Textwindow.Read()
+If(Answer5="C")Then
+  Score = Score+1
+  TextWindow.WriteLine("CORRECT! 8 Hours of sleep minimum is reccomended.Your Score is "+Score)
+Else
+  Score =  Score
+  TextWindow.WriteLine("INCORRECT... It is reccomended atleast 10 hours for children, and 8 hours for adults. Your Score is "+Score)
+Endif
+TextWindow.WriteLine("6.When was the game Destiny 2 released for free?")
+TextWindow.WriteLine(" A - 2019 October")
+TextWindow.WriteLine(" B - 2018 September")
+Textwindow.WriteLine(" C - It has not been released for free yet")
+Answer6 =  TextWindow.Read()
+If(Answer6="A")Then
+  Score = Score+1
+  TextWindow.WriteLine("CORRECT! Destiny 2 has been released for 3 years, but has only become free recently. Your Score is "+Score)
+Else
+  Score = Score
+  TextWindow.WriteLine("INCORRECT...Destiny 2 was released 3 years ago, however it was only released for free on 2019 October 1st. Your Score is "+Score)
+EndIf
+TextWindow.WriteLine("7.What update version will the Minecraft Nether update be?")
+TextWindow.WriteLine(" A - 1.15")
+TextWindow.WriteLine(" B - 1.16")
+TextWindow.WriteLine(" C - There is no nether update planned so far")
+Answer7 = TextWindow.Read()
+If(Answer7="B")Then
+  Score=Score+1
+  TextWindow.WriteLine("CORRECT! There will be an update planned for the nether to add new mobs, new areas and re-work zombie pigmen. Your Score is "+Score)
+Else
+  Score=Score
+  TextWindow.WriteLine("INCORRECT...The next update after the bees update, 1.15 will be the nether update. Your Score is "+Score)
+Endif
+TextWindow.WriteLine("8.What was Minecraft's Original game name")
+TextWindow.WriteLine(" A - Caver's Delight")
+TextWindow.WriteLine(" B - Cave Game")
+TextWindow.WriteLine(" C - Crafting and Mining Game")
+Answer8 = TextWindow.Read()
+If(Answer8="B")Then
+  Score=Score+1
+  TextWindow.WriteLine("CORRECT! Minecraft's Creator, Notch First named the game Cave Game. Your Score is "+Score)
+Else
+  Score=Score
+  TextWindow.WriteLine("INCORRECT...Minecraft's First name was Cave Game, a small project made by Notch. Your Score is "+Score)
+EndIf
+TextWindow.WriteLine("9. What line is this question on?")
+TextWindow.WriteLine(" A - 99")
+TextWindow.WriteLine(" B - 100")
+TextWindow.WriteLine(" C - 143")
+Answer9 =  TextWindow.Read()
+If(Answer9="A")Then
+  Score=Score+1
+  TextWindow.WriteLine("CORRECT! The Question was on line 99. Your Score is "+Score)
+Else
+  Score=Score
+  TextWindow.WriteLine("INCORRECT... Question 9 was on line 99. Your Score is "+Score)
+EndIf
+TextWindow.WriteLine("10. What colour is sans from undertale's slippers?")
+TextWindow.WriteLine(" A - Black")
+TextWindow.WriteLine(" B - Brown")
+TextWindow.WriteLine(" C - Pink")
+Answer10 = Textwindow.Read()
+If(Answer10="C")Then
+  Score=Score+1
+  TextWindow.WriteLine("CORRECT! Sans' famous slippers are pink, unexpectedly. Your Score is "+Score)
+Else
+  Score = Score
+  TextWindow.WriteLine("INCORRECT... Sans' slippers are oddly pink. Your Score is "+Score)
+Endif
+TextWindow.WriteLine("YOUR FINAL SCORE IS... "+Score)
+If(Score<"5")Then
+  TextWindow.WriteLine("You are a disgrace...")
+Else
+  TextWindow.WriteLine("Welldone, you did pretty good.")
+  Endif
+  

@@ -1,0 +1,4 @@
+TextWindow.WriteLine("hello")
+TextWindow.WriteLine("")
+TextWindow.WriteLine("my "+"name "+"is "+"dawud")
+TextWindow.WriteLine("hello "+"dawud, "+"my "+"name "+"is "+"AliA")

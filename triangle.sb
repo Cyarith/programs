@@ -1,0 +1,8 @@
+Turtle.Turn(135)
+Turtle.Move(70)
+Turtle.Turn(135)
+Turtle.Move(100)
+Turtle.Turn(135)
+Turtle.Move(70)
+Turtle.Turn(135)
+GraphicsWindow.PenColor="Red"

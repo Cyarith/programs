@@ -1,0 +1,12 @@
+GraphicsWindow.Width = 600
+GraphicsWindow.Height = 600
+ContinueForEver="Yes"
+While ContinueForEver="Yes"
+  GraphicsWindow.brushcolor="blue"'blue circle
+  GraphicsWindow.FillEllipse(100,100,100,100)
+  GraphicsWindow.BrushColor="red"'red elipse
+  GraphicsWindow.FillEllipse(200,200,100,50)
+  GraphicsWindow.BrushColor="green"'green rectangle
+  GraphicsWindow.FillRectangle(300,300,100,50)
+endwhile
+  

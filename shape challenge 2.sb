@@ -1,0 +1,61 @@
+'program to make a triangle, square, hexagon and rectangle
+GraphicsWindow.Width = 800
+GraphicsWindow.Height = 600
+Turtle.Speed = 10
+Turtle.PenUp()'triangle
+Turtle.MoveTo(60,60)
+Turtle.PenDown()
+Turtle.MoveTo(0,60)
+Turtle.MoveTo(30,0)
+Turtle.MoveTo(60,60)
+Turtle.PenUp()'square
+Turtle.Angle = 270
+Turtle.MoveTo(750,10)
+Turtle.Pendown()
+Turtle.MoveTo(700,10)
+Turtle.MoveTo(700,60)
+Turtle.MoveTo(750,60)
+Turtle.MoveTo(750,10)
+Turtle.PenUp() 'rectangle
+Turtle.MoveTo(10, 590)
+Turtle.PenDown()
+Turtle.MoveTo(110,590)
+Turtle.MoveTo(110,540)
+Turtle.MoveTo(10,540)
+Turtle.MoveTo(10,590)
+Turtle.PenUp()'hexagon
+Turtle.Angle = 270
+Turtle.MoveTo(750,550)
+Turtle.PenDown()
+Turtle.Turn(60)
+Turtle.Move(25)
+Turtle.Turn(60)
+Turtle.Move(25)
+Turtle.Turn(60)
+Turtle.Move(25)
+Turtle.Turn(60)
+Turtle.Move(25)
+Turtle.Turn(60)
+Turtle.Move(25)
+Turtle.Turn(60)
+Turtle.Move(25)
+Turtle.PenUp() 'INITIALS
+Turtle.MoveTo(400,300)
+Turtle.Angle = 270
+Turtle.PenDown()
+Turtle.MoveTo(400,150)
+Turtle.MoveTo(450,200)
+Turtle.MoveTo(450,225)
+Turtle.Moveto(400,300)
+Turtle.PenUp()
+Turtle.MoveTo(500,150)
+Turtle.Angle = 270
+Turtle.PenDown()
+Turtle.MoveTo(500,300)
+Turtle.MoveTo(500,225)
+Turtle.Turn(30)
+Turtle.Move(75)
+Turtle.MoveTo(500,225)
+Turtle.Angle = 270
+Turtle.Turn(240)
+Turtle.Move(75)

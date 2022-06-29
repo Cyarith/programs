@@ -1,0 +1,39 @@
+'code to check input of user's name
+TextWindow.WriteLine("hi what is your name?")
+Name = TextWindow.Read()
+If(Name="dawud")Then
+  TextWindow.WriteLine("omg wow you're me")
+  endif
+TextWindow.writeline("")
+TextWindow.writeline("hello "+Name+" how old are you? "+Name)
+Age = TextWindow.ReadNumber()
+If(Age>="50")Then
+  TextWindow.WriteLine("uh... you're pretty old,"+Age+" anyway what if your favourite food?")
+  EndIf
+  Age=Age+1
+  If(Age<"50")Then
+    TextWindow.WriteLine("Wow! i am nearly the same age as you!, i am "+Age+" what is your favourite food?")
+    endif
+Food = TextWindow.Read()
+TextWindow.WriteLine("Really?? i love "+Food+" too! whats your favourite game?")
+Game = TextWindow.Read()
+TextWindow.WriteLine("Thats cool, i like to play "+game+" too! where do you live?")
+area = TextWindow.Read()
+TextWindow.WriteLine("I used to live at "+area+" too! i hope you enjoy it, what are your credit card details?")
+Details = TextWindow.Read()
+If(Details="666")Then
+  TextWindow.WriteLine("OKAY, please dont send me to your home satan, i promise to not use your card")
+  endif
+TextWindow.WriteLine("cool i 100% definetly will not use the card "+details+" anyway, what is your favourite youtube channel?")
+youtuber = TextWindow.Read()
+If(youtuber="morgz")Then
+  TextWindow.WriteLine("don't even talk to me...")
+endif
+If(youtuber<>"morgz")then
+  TextWindow.WriteLine("oh i thought we were almost the same person, I watch AliA but i guess "+youtuber+" is pretty cool too, what is your favourite number?")
+ endif
+  Number = TextWindow.ReadNumber() 
+If(number="21")then
+  TextWindow.writeline("that's a pretty old meme but okay")
+endif
+ 

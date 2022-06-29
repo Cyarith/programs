@@ -1,0 +1,61 @@
+'chess board
+GraphicsWindow.Width="800"
+GraphicsWindow.Height="800"
+xco = 0
+yco = 0
+GraphicsWindow.BrushColor="Black"
+While(xco<801)
+  GraphicsWindow.FillRectangle(xco,yco,100,100)
+  GraphicsWindow.DrawRectangle(xco-100,yco,100,100)
+  xco = xco+200
+EndWhile
+yco = yco+100
+xco = 100
+While(xco<802)
+  GraphicsWindow.FillRectangle(xco,yco,100,100)
+  GraphicsWindow.DrawRectangle(xco-100,yco,100,100)
+  xco = xco+200
+endwhile
+yco = yco+100
+xco = 0
+While(xco<803)
+  GraphicsWindow.FillRectangle(xco,yco,100,100)
+  GraphicsWindow.DrawRectangle(xco-100,yco,100,100)
+  xco=xco+200
+EndWhile
+yco = yco+100
+xco = 100
+While(xco<804)
+  GraphicsWindow.FillRectangle(xco,yco,100,100)
+  GraphicsWindow.DrawRectangle(xco-100,yco,100,100)
+  xco=xco+200
+  endwhile
+  yco = yco+100
+  xco = 0
+  While(xco<805)
+    GraphicsWindow.FillRectangle(xco,yco,100,100)
+    GraphicsWindow.DrawRectangle(xco-100,yco,100,100)
+    xco=xco+200
+  EndWhile
+  yco =yco+100
+  xco=100
+  While(xco<806)
+    GraphicsWindow.FillRectangle(xco,yco,100,100)
+    GraphicsWindow.DrawRectangle(xco-100,yco,100,100)
+    xco=xco+200
+  EndWhile
+  yco=yco+100
+  xco=0
+  While(xco<807)
+    GraphicsWindow.FillRectangle(xco,yco,100,100)
+    GraphicsWindow.DrawRectangle(xco-100,yco,100,100)
+    xco=xco+200
+  EndWhile
+  yco=yco+100
+  xco=100
+  While(xco<808)
+    GraphicsWindow.FillRectangle(xco,yco,100,100)
+    GraphicsWindow.DrawRectangle(xco-100,yco,100,100)
+    xco=xco+200
+    endwhile
+    

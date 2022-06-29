@@ -1,0 +1,24 @@
+GraphicsWindow.Width = 800 'make 3 interlapping squares
+GraphicsWindow.Height = 800
+Turtle.Speed = 9
+Turtle.PenUp()'square 1
+Turtle.MoveTo(400,400)
+Turtle.PenDown()
+Turtle.MoveTo(400,300)
+Turtle.MoveTo(300,300)
+Turtle.MoveTo(300,400)
+Turtle.MoveTo(400,400)
+'square 2
+Turtle.MoveTo(400,350)
+Turtle.MoveTo(450,350)
+Turtle.MoveTo(450,450)
+Turtle.MoveTo(350,450)
+Turtle.MoveTo(350,350)
+Turtle.MoveTo(450,350)
+'square 3
+Turtle.MoveTo(450,400)
+Turtle.MoveTo(400,400)
+Turtle.MoveTo(400,500)
+Turtle.MoveTo(500,500)
+Turtle.MoveTo(500,400)
+Turtle.MoveTo(400,400)

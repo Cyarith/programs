@@ -1,0 +1,10 @@
+TextWindow.WriteLine("do you like games?")
+games = TextWindow.Read()
+If(games="yes"or"YES"or"Yes")Then
+  TextWindow.WriteLine("good choice, who is your favourite youtuber?")
+Else 
+  TextWindow.WriteLine("oh well, i like them, who is your favourite youtuber")
+endif
+youtuber = TextWindow.Read()
+If(youtuber="Morgz"or"morgz"or"AliA"or"alia"or"Alia")
+  TextWindow.WriteLine("he's pretty bad, but wh

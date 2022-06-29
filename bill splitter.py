@@ -1,0 +1,5 @@
+print("welcome to the meal price splitter")
+people = int(input("How many people need to pay?"))
+bill = float(input("How much was the bill?"))
+priceEach = str(bill/people)
+print("Each person should pay ",priceEach)            

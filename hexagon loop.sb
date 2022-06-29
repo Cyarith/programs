@@ -1,0 +1,52 @@
+'code to make a hexagon using a loop
+GraphicsWindow.Width = 800
+GraphicsWindow.Height = 700
+Turtle.Speed = 10
+GraphicsWindow.Penwidth=5
+GraphicsWindow.PenColor="deeppink"
+GraphicsWindow.BackgroundColor="chartreuse"
+Turtle.X = 200
+Turtle.Y = 100
+For i = 1 To 6
+  Turtle.Move(50)
+  Turtle.Turn(60)
+Endfor
+Turtle.PenUp()
+Turtle.MoveTo(100,450)
+Turtle.PenDown()
+GraphicsWindow.PenColor="darkseagreen
+GraphicsWindow.PenWidth=3
+GraphicsWindow.BackgroundColor="sandybrown"
+For i = 1 To 8
+  Turtle.Move(25)
+  Turtle.Turn(45)
+EndFor
+Turtle.PenUp()
+Turtle.MoveTo(250,400)
+GraphicsWindow.PenWidth=2
+GraphicsWindow.PenColor="coral"
+GraphicsWindow.BackgroundColor="moccasin"
+Turtle.PenDown()
+For i = 1 To 20
+  Turtle.Move(12)
+  Turtle.Turn(18)
+EndFor
+Turtle.PenUp()
+Turtle.MoveTo(250,250)
+GraphicsWindow.PenColor="darkcyan"
+GraphicsWindow.penwidth=2
+GraphicsWindow.BackgroundColor="aquamarine"
+Turtle.PenDown()
+For i = 1 To 40
+  Turtle.Move(30)
+  Turtle.Turn(9)
+EndFor
+For i = 1 To 50
+  GraphicsWindow.BackgroundColor="red"
+  GraphicsWindow.BackgroundColor="orange"
+  GraphicsWindow.BackgroundColor="yellow"
+  GraphicsWindow.BackgroundColor="green"
+  GraphicsWindow.BackgroundColor="blue"
+  GraphicsWindow.BackgroundColor="purple"
+  GraphicsWindow.BackgroundColor="pink"
+  EndFor

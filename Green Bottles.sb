@@ -1,0 +1,10 @@
+'code to play ten green bottles song in code
+TextWindow.WriteLine("How many green bottles do you have on the wall?")
+Bottles = TextWindow.ReadNumber()
+While(Bottles>0)
+  TextWindow.WriteLine("there were "+Bottles+" Green bottles sitting on the wall,")
+  TextWindow.WriteLine("there were "+Bottles+" Green bottles sitting on the wall,")
+  TextWindow.WriteLine("And if one green bottle should accidentally fall,")
+  Bottles = Bottles - 1
+  TextWindow.WriteLine("There'll be "+Bottles+" Green bottles sitting on the wall.")
+endwhile
